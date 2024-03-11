@@ -52,7 +52,7 @@ export function CustomSandPack(props: {
 
   const dependencies = {
     'react-day-picker': pkg.version,
-    'date-fns': '^2.28.0',
+    'date-fns-jalali': '^2.28.0',
     react: '^17.0.2',
     'react-dom': '^17.0.2',
     ...props.dependencies

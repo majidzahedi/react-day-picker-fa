@@ -5,8 +5,12 @@ import {
   useState
 } from 'react';
 
-import { differenceInCalendarDays, format as _format, parse } from 'date-fns';
-import { enUS } from 'date-fns/locale';
+import {
+  differenceInCalendarDays,
+  format as _format,
+  parse
+} from 'date-fns-jalali';
+import { enUS } from 'date-fns-jalali/locale';
 
 import { parseFromToProps } from 'contexts/DayPicker/utils';
 import { DayPickerBase } from 'types/DayPickerBase';
@@ -53,7 +57,7 @@ export interface UseInputOptions
   defaultSelected?: Date;
   /**
    * The format string for formatting the input field. See
-   * https://date-fns.org/docs/format for a list of format strings.
+   * https://date-fns-jalali.org/docs/format for a list of format strings.
    *
    * @defaultValue PP
    */

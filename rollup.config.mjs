@@ -39,8 +39,8 @@ const mainConfig = {
       sourcemap: true,
       globals: {
         react: 'React',
-        'date-fns': 'DateFns',
-        'date-fns/locale': 'DateFnsLocale'
+        'date-fns-jalali': 'DateFnsJalali',
+        'date-fns-jalali/locale': 'DateFnsJalaliLocale'
       }
     }
   ],

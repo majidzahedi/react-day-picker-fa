@@ -1,4 +1,4 @@
-import { enGB, enUS } from 'date-fns/locale';
+import { enGB, enUS } from 'date-fns-jalali/locale';
 
 import { getMonthWeeks } from './getMonthWeeks';
 

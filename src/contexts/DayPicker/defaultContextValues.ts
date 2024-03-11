@@ -1,4 +1,4 @@
-import { enUS } from 'date-fns/locale';
+import { enUS } from 'date-fns-jalali/locale';
 
 import { CaptionLayout } from 'components/Caption';
 import { DayPickerContextValue } from 'contexts/DayPicker';

@@ -89,13 +89,13 @@ export type DayPickerProps =
  *
  * ### Localization
  *
- * To localize DayPicker, import the locale from `date-fns` package and use the
+ * To localize DayPicker, import the locale from `date-fns-jalali` package and use the
  * `locale` prop.
  *
  * For example, to use Spanish locale:
  *
  * ```
- * import { es } from 'date-fns/locale';
+ * import { es } from 'date-fns-jalali/locale';
  * <DayPicker locale={es} />
  * ```
  */

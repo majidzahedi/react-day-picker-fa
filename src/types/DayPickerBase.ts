@@ -1,6 +1,6 @@
 import { CSSProperties, ReactNode } from 'react';
 
-import { Locale } from 'date-fns';
+import { Locale } from 'date-fns-jalali';
 
 import { CaptionLayout, CaptionProps } from 'components/Caption';
 import { CaptionLabelProps } from 'components/CaptionLabel';
@@ -207,7 +207,7 @@ export interface DayPickerBase {
    * The day of January, which is always in the first week of the year. Can be
    * either Monday (`1`) or Thursday (`4`).
    *
-   * @see https://date-fns.org/docs/getWeek
+   * @see https://date-fns-jalali.org/docs/getWeek
    * @see https://en.wikipedia.org/wiki/Week#Numbering
    * @see {@link ISOWeek}.
    */
@@ -267,7 +267,7 @@ export interface DayPickerBase {
   modifiers?: DayModifiers;
 
   /**
-   * The date-fns locale object used to localize dates.
+   * The date-fns-jalali locale object used to localize dates.
    *
    * @defaultValue en-US
    */
